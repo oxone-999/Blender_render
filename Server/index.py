@@ -169,7 +169,7 @@ def list_blend_files():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.29.38', port=5000, debug=True, threaded=True)
+    app.run(port=5000, debug=True, threaded=True)
 
 
 
